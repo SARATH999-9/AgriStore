@@ -1,0 +1,20 @@
+:root{--g:#2e7d32;--gd:#1b4d1f;--y:#f4b400;--bg:#f6f8f1;--ink:#1d2b1f;--card:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--ink)}
+header{display:flex;gap:1rem;align-items:center;justify-content:space-between;padding:.8rem 1.5rem;background:var(--gd);color:#fff;position:sticky;top:0;z-index:5;flex-wrap:wrap}
+header a{color:#fff;text-decoration:none;margin-right:1rem}header .logo{font-weight:700;font-size:1.2rem}
+select,input,textarea,button{font:inherit;padding:.6rem .8rem;border:1px solid #bcc7b8;border-radius:8px}
+button{background:var(--g);color:#fff;border:0;cursor:pointer}button:hover{background:var(--gd)}button.alt{background:var(--y);color:#222}
+main{max-width:1100px;margin:auto;padding:1.5rem}.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:var(--card);border-radius:12px;padding:1.2rem;border:1px solid #dfe6da}.card h3{margin-top:0}
+.stat b{font-size:1.6rem;display:block;color:var(--g)}a.card{color:inherit;text-decoration:none}a.card:hover{border-color:var(--g)}
+form{display:grid;gap:.7rem;max-width:420px}table{width:100%;border-collapse:collapse;background:#fff}
+th,td{padding:.55rem;border-bottom:1px solid #e5eadf;text-align:left;font-size:.92rem}th{background:#eef3e8}
+.bar{height:8px;background:#e5eadf;border-radius:4px}.bar i{display:block;height:100%;border-radius:4px}
+.ok{color:#2e7d32}.mid{color:#ef8a00}.full{color:#c62828}.msg{margin:.5rem 0;font-weight:600}
+#splash{position:fixed;inset:0;background:#000;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:99;transition:opacity .6s}
+#splash h1{font-size:4rem;margin:0;background:linear-gradient(45deg,#4caf50,#ffc107,#4caf50);background-size:200%;-webkit-background-clip:text;color:transparent;animation:s 2s linear infinite}
+#splash p{color:#aaa;letter-spacing:.3em}@keyframes s{to{background-position:200% 0}}
+#mic{position:fixed;right:20px;bottom:20px;width:56px;height:56px;border-radius:50%;font-size:1.4rem;z-index:6}
+#vbox{position:fixed;right:20px;bottom:90px;background:#fff;border:1px solid #ccc;border-radius:10px;padding:.8rem;display:none;max-width:260px;z-index:6}
+.tabs button{margin-right:.4rem;background:#dfe6da;color:#222}
+@media(max-width:768px){#splash h1{font-size:2.2rem}}

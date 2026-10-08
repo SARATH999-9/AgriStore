@@ -1,0 +1,8 @@
+const T={
+en:{home:'Home',advisory:'AI Advisory',storage:'Cold Storage',market:'Market Prices',finance:'Financial Services',directory:'AP Directory',logout:'Logout',hello:'Hello',welcome:'Welcome to Agri Storage',tag:'Empowering Indian farmers with technology-driven solutions'},
+hi:{home:'होम',advisory:'एआई सलाह',storage:'कोल्ड स्टोरेज',market:'बाज़ार भाव',finance:'वित्तीय सेवाएं',directory:'एपी निर्देशिका',logout:'लॉगआउट',hello:'नमस्ते',welcome:'एग्री स्टोरेज में आपका स्वागत है',tag:'तकनीक से भारतीय किसानों को सशक्त बनाना'},
+te:{home:'హోమ్',advisory:'ఏఐ సలహా',storage:'కోల్డ్ స్టోరేజ్',market:'మార్కెట్ ధరలు',finance:'ఆర్థిక సేవలు',directory:'ఏపీ డైరెక్టరీ',logout:'లాగౌట్',hello:'నమస్కారం',welcome:'అగ్రి స్టోరేజ్‌కు స్వాగతం',tag:'సాంకేతికతతో రైతులకు సాధికారత'},
+ta:{home:'முகப்பு',advisory:'ஏஐ ஆலோசனை',storage:'குளிர்பதன கிடங்கு',market:'சந்தை விலை',finance:'நிதி சேவைகள்',directory:'ஏபி பட்டியல்',logout:'வெளியேறு',hello:'வணக்கம்',welcome:'அக்ரி ஸ்டோரேஜுக்கு வரவேற்கிறோம்',tag:'தொழில்நுட்பத்துடன் விவசாயிகளுக்கு வலிமை'},
+kn:{home:'ಮುಖಪುಟ',advisory:'ಎಐ ಸಲಹೆ',storage:'ಶೀತಲ ಗೋದಾಮು',market:'ಮಾರುಕಟ್ಟೆ ಬೆಲೆ',finance:'ಹಣಕಾಸು ಸೇವೆ',directory:'ಎಪಿ ಪಟ್ಟಿ',logout:'ಲಾಗ್ ಔಟ್',hello:'ನಮಸ್ಕಾರ',welcome:'ಅಗ್ರಿ ಸ್ಟೋರೇಜ್‌ಗೆ ಸ್ವಾಗತ',tag:'ತಂತ್ರಜ್ಞಾನದಿಂದ ರೈತರಿಗೆ ಶಕ್ತಿ'},
+ml:{home:'ഹോം',advisory:'എഐ ഉപദേശം',storage:'കോൾഡ് സ്റ്റോറേജ്',market:'വിപണി വില',finance:'ധനകാര്യ സേവനം',directory:'എപി ഡയറക്ടറി',logout:'ലോഗൗട്ട്',hello:'നമസ്കാരം',welcome:'അഗ്രി സ്റ്റോറേജിലേക്ക് സ്വാഗതം',tag:'സാങ്കേതികവിദ്യയിലൂടെ കർഷകർക്ക് ശക്തി'}};
+const LANGS={en:['English','en-IN'],hi:['हिन्दी','hi-IN'],te:['తెలుగు','te-IN'],ta:['தமிழ்','ta-IN'],kn:['ಕನ್ನಡ','kn-IN'],ml:['മലയാളം','ml-IN']};
